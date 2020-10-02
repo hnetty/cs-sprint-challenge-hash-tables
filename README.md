@@ -23,11 +23,30 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+    - Hash functions are functions that are used to map over data over random sized data and fixed values. These values are used to provide an index, and are called values, codes, digests, or just hashes
+
 2. Collision resolution
+
+    - Issues can arise from collision, because when 2 items are 'hashed' to the same spot we have to have a specific way of resolving it. There are many different ways to address this issue. You can have open addressing, linear probing, quadratic probing, double hasing, and chaining.
+
 3. Performance of basic hash table operations
+
+    - Hash tables are generally O(n) run time complexity which is generally the worst. This is because there might be too many elements hashed into the same key, a hash table needing to rehash because it passed the load balance and because of that the runtime is longer.
+
 4. Load factor
+
+    - This is a measure that determines when to increase the hash map capacity to maintain the get/put operations of O(1)
+
 5. Automatic resizing
+
+    - When resizing occurs, the size is doubled and rounded up to the first prime number
+
 6. Various use cases for hash tables
+
+    - Searching for elements withing a large data set
+    - Finding duplicates
+    - Store/Retrieve elements in a large data set quickly
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
